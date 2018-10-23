@@ -1,0 +1,29 @@
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.App-header {
+  text-align: center;
+}
+
+h1{
+  font-weight:700;
+  font-size: calc(10px + 2vmin);
+}
+
+h2{
+  font-weight: 300;
+  font-size: calc(6px + 2vmin);
+  margin-top: 1em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: black;
+  width:100%;
+  margin: 2em 0;
+}

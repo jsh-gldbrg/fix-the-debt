@@ -1,0 +1,27 @@
+.MenuButton,.MenuButton-disabled{
+    background: white;
+    border: 1px solid #ed3326; 
+    font-size: calc(6px + 2vmin);
+    color: #ed3326;
+    text-align: center;
+    font-weight: 700;
+    margin: auto .25em;
+    padding:0 .5em;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    pointer-events:auto;
+}
+
+.MenuButton:hover{
+    color: white;
+    background: #ed3326;
+}
+
+.MenuButton-disabled{
+    color: white;
+    background: #ed3326;
+    pointer-events:none;
+}
