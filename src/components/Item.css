@@ -1,0 +1,46 @@
+.Item {
+	display: flex;
+	overflow: hidden;
+	margin-top: .5em;
+}
+
+.col-left,
+.col-right {
+	text-align: left;
+	flex: 1;
+	font-weight: 300;
+	font-size: calc(6px + 2vmin);
+	color: black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.col-right {
+	text-align: right;
+	color: red;
+}
+
+.col-left {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	width: 2vh;
+	height: 2vh;
+	margin-right: .5em;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.icon-collapse {
+	background-image: url('../icon-collapse.svg');
+}
+
+.icon-expand {
+	background-image: url('../icon-expand.svg');
+}

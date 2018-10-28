@@ -1,0 +1,16 @@
+.Headers {
+    display: flex;
+    overflow: hidden;
+}
+
+.header-left, .header-right {
+    text-align: left;
+    flex: 1;
+    font-weight: 700;
+    font-size: calc(6px + 2vmin);
+    color: black;
+}
+
+.header-right {
+    text-align: right; 
+}
