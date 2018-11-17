@@ -2,24 +2,31 @@ import React, { Component } from 'react';
 import { Item } from './Item';
 import { Headers } from './Headers';
 import './ItemsContainer.css';
+import dataSpending from '../spending.json'; 
 
 export class ItemsContainer extends Component {
 	constructor() {
 		super();
-		this.state = {data:{}};
+		this.state = {
+			overall:dataSpending.overall,
+			single:dataSpending.single
+		};
 	}
-	componentDidMount() {
-		// $.ajax({
-		// 	url: '/my-comments.json',
-		// 	dataType: 'json',
-		// 	success: (comments) => this.setState({data:})
-		// });
-	}
+
 	render() {
+		const data = this.state.overall;
+		const items = data.map((label, i) =>
+            <Item
+                key={i}
+                index={i}
+				left={label.category}
+				right={label.amount}
+				subs={label.subs}
+            />);
 		return (
 			 <div className="ItemsContainer">
 			 	<Headers left={"Spending Category"} right={"Total Spending (2017)"}/>
-				<Item left={"Defense and Military Benefits"} right={"$807,813,000,000"}/>
+				{items}
 			 </div>
 		)
 	}

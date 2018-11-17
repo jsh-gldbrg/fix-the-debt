@@ -1,0 +1,628 @@
+{
+    "name": "fix-the-debt",
+    "version": "1.0",
+    "overall": [
+        {
+            "category": "Defense and Military Benefits",
+            "amount":"$802,342,000,000",
+            "subs":[
+                {
+                    "category":"National Defense",
+                    "amount":"$595,851,000,000"
+                },
+                {
+                    "category":"Veterans Services",
+                    "amount":"$206,491,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Foreign Aid and International Programs",
+            "amount":"$44,479,000,000",
+            "subs":[
+                {
+                    "category":"Foreign Aid/Humanitarian Assistance",
+                    "amount":"$38,163,000,000"
+                },
+                {
+                    "category":"Other International Affairs",
+                    "amount":"$6,316,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Science, Space and Technology",
+            "amount":"$31,806,000,000",
+            "subs":[
+                {
+                    "category":"NASA",
+                    "amount":"$19,744,000,000"
+                },
+                {
+                    "category":"National Science Foundation",
+                    "amount":"$7,332,000,000"
+                },
+                {
+                    "category":"Other Science, Space and Technology",
+                    "amount":"$4,730,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Energy",
+            "amount":"$3,386,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Natural Resources and Environment",
+            "amount":"$11,449,000,000",
+            "subs":[
+                {
+                    "category":"EPA",
+                    "amount":"$7,967,000,000"
+                },
+                {
+                    "category":"National Parks",
+                    "amount":"$3,482,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Farm Subsidies",
+            "amount":"$17,298,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Education",
+            "amount":"$69,501,000,000",
+            "subs":[
+                {
+                    "category":"K-12 and Vocational Education",
+                    "amount":"$41,607,000,000"
+                },
+                {
+                    "category":"Higher Education",
+                    "amount":"$27,894,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Health Care",
+            "amount":"$1,142,779,000,000",
+            "subs":[
+                {
+                    "category":"Medicare",
+                    "amount":"$583,184,000,000"
+                },
+                {
+                    "category":"Medicaid",
+                    "amount":"$383,234,000,000"
+                },
+                {
+                    "category":"CHIP",
+                    "amount":"$15,760,000,000"
+                },
+                {
+                    "category":"NIH",
+                    "amount":"$33,102,000,000"
+                },
+                {
+                    "category":"CDC",
+                    "amount":"$8,431,000,000"
+                },
+                {
+                    "category":"FDA",
+                    "amount":"$2,054,000,000"
+                },
+                {
+                    "category":"Other Health Care",
+                    "amount":"$117,014,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Income Security",
+            "amount":"$499,272,000,000",
+            "subs":[
+                {
+                    "category":"Food Stamps",
+                    "amount":"$69,212,000,000"
+                },
+                {
+                    "category":"Child Nutrition",
+                    "amount":"$23,249,000,000"
+                },
+                {
+                    "category":"Unemployment Compensation",
+                    "amount":"$32,736,000,000"
+                },
+                {
+                    "category":"Supplemental Security Income",
+                    "amount":"$55,914,000,000"
+                },
+                {
+                    "category":"Federal Civilian Retirement",
+                    "amount":"$101,868,000,000"
+                },
+                {
+                    "category":"Housing Assistance",
+                    "amount":"$50,972,000,000"
+                },
+                {
+                    "category":"TANF",
+                    "amount":"$16,023,000,000"
+                },
+                {
+                    "category":"Other Income Security",
+                    "amount":"$149,298,000,000"
+                }
+            ]
+        },
+        {
+            "category": "Social Security",
+            "amount":"$990,440,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Interest on the Debt",
+            "amount":"$315,639,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Transportation",
+            "amount":"$94,011,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Justice",
+            "amount":"$61,572,000,000",
+            "subs":[]
+        },
+        {
+            "category": "General Government",
+            "amount":"$63,473,000,000",
+            "subs":[
+                {
+                    "category":"Congressional Salaries",
+                    "amount":"$143,000,000"
+                },
+                {
+                    "category":"Federal Emergency Management Administration",
+                    "amount":"$39,159,000,000"
+                },
+                {
+                    "category":"Corporation for Public Broadcasting",
+                    "amount":"$465,000,000"
+                },
+                {
+                    "category":"National Endowment for the Arts",
+                    "amount":"$150,000,000"
+                },
+                {
+                    "category":"National Endowment for the Humanities",
+                    "amount":"$152,000,000"
+                },
+                {
+                    "category":"Other General Government",
+                    "amount":"$23,404,000,000"
+                }
+            ]
+        }
+    ],
+    "one": [
+        {
+            "category": "Defense and Military Benefits",
+            "amount":"$5,588",
+            "subs":[
+                {
+                    "category":"National Defense",
+                    "amount":"$4,150"
+                },
+                {
+                    "category":"Veterans Services",
+                    "amount":"$1,438"
+                }
+            ]
+        },
+        {
+            "category": "Foreign Aid and International Programs",
+            "amount":"$310",
+            "subs":[
+                {
+                    "category":"Foreign Aid/Humanitarian Assistance",
+                    "amount":"$266"
+                },
+                {
+                    "category":"Other International Affairs",
+                    "amount":"$44"
+                }
+            ]
+        },
+        {
+            "category": "Science, Space and Technology",
+            "amount":"$222",
+            "subs":[
+                {
+                    "category":"NASA",
+                    "amount":"$138"
+                },
+                {
+                    "category":"National Science Foundation",
+                    "amount":"$51"
+                },
+                {
+                    "category":"Other Science, Space and Technology",
+                    "amount":"$33"
+                }
+            ]
+        },
+        {
+            "category": "Energy",
+            "amount":"$24",
+            "subs":[]
+        },
+        {
+            "category": "Natural Resources and Environment",
+            "amount":"$80",
+            "subs":[
+                {
+                    "category":"EPA",
+                    "amount":"$56"
+                },
+                {
+                    "category":"National Parks",
+                    "amount":"$24"
+                }
+            ]
+        },
+        {
+            "category": "Farm Subsidies",
+            "amount":"$120",
+            "subs":[]
+        },
+        {
+            "category": "Education",
+            "amount":"$484",
+            "subs":[
+                {
+                    "category":"K-12 and Vocational Education",
+                    "amount":"$290"
+                },
+                {
+                    "category":"Higher Education",
+                    "amount":"$194"
+                }
+            ]
+        },
+        {
+            "category": "Health Care",
+            "amount":"$7,959",
+            "subs":[
+                {
+                    "category":"Medicare",
+                    "amount":"$4,062"
+                },
+                {
+                    "category":"Medicaid",
+                    "amount":"$2,669"
+                },
+                {
+                    "category":"CHIP",
+                    "amount":"$110"
+                },
+                {
+                    "category":"NIH",
+                    "amount":"$230"
+                },
+                {
+                    "category":"CDC",
+                    "amount":"$59"
+                },
+                {
+                    "category":"FDA",
+                    "amount":"$14"
+                },
+                {
+                    "category":"Other Health Care",
+                    "amount":"$815"
+                }
+            ]
+        },
+        {
+            "category": "Income Security",
+            "amount":"$3,477",
+            "subs":[
+                {
+                    "category":"Food Stamps",
+                    "amount":"$482"
+                },
+                {
+                    "category":"Child Nutrition",
+                    "amount":"$162"
+                },
+                {
+                    "category":"Unemployment Compensation",
+                    "amount":"$228"
+                },
+                {
+                    "category":"Supplemental Security Income",
+                    "amount":"$389"
+                },
+                {
+                    "category":"Federal Civilian Retirement",
+                    "amount":"$709"
+                },
+                {
+                    "category":"Housing Assistance",
+                    "amount":"$355"
+                },
+                {
+                    "category":"TANF",
+                    "amount":"$112"
+                },
+                {
+                    "category":"Other Income Security",
+                    "amount":"$1,040"
+                }
+            ]
+        },
+        {
+            "category": "Social Security",
+            "amount":"6,898",
+            "subs":[]
+        },
+        {
+            "category": "Interest on the Debt",
+            "amount":"$2,198",
+            "subs":[]
+        },
+        {
+            "category": "Transportation",
+            "amount":"$655",
+            "subs":[]
+        },
+        {
+            "category": "Justice",
+            "amount":"$429",
+            "subs":[]
+        },
+        {
+            "category": "General Government",
+            "amount":"$442",
+            "subs":[
+                {
+                    "category":"Congressional Salaries",
+                    "amount":"$1"
+                },
+                {
+                    "category":"Federal Emergency Management Administration",
+                    "amount":"$273"
+                },
+                {
+                    "category":"Corporation for Public Broadcasting",
+                    "amount":"$3"
+                },
+                {
+                    "category":"National Endowment for the Arts",
+                    "amount":"$1"
+                },
+                {
+                    "category":"National Endowment for the Humanities",
+                    "amount":"$1"
+                },
+                {
+                    "category":"Other General Government",
+                    "amount":"$163"
+                }
+            ]
+        }
+    ],
+    "two": [
+        {
+            "category": "Defense and Military Benefits",
+            "amount":"$11,176",
+            "subs":[
+                {
+                    "category":"National Defense",
+                    "amount":"$8,300"
+                },
+                {
+                    "category":"Veterans Services",
+                    "amount":"$2,876"
+                }
+            ]
+        },
+        {
+            "category": "Foreign Aid and International Programs",
+            "amount":"$620",
+            "subs":[
+                {
+                    "category":"Foreign Aid/Humanitarian Assistance",
+                    "amount":"$532"
+                },
+                {
+                    "category":"Other International Affairs",
+                    "amount":"$88"
+                }
+            ]
+        },
+        {
+            "category": "Science, Space and Technology",
+            "amount":"$444",
+            "subs":[
+                {
+                    "category":"NASA",
+                    "amount":"$276"
+                },
+                {
+                    "category":"National Science Foundation",
+                    "amount":"$102"
+                },
+                {
+                    "category":"Other Science, Space and Technology",
+                    "amount":"$66"
+                }
+            ]
+        },
+        {
+            "category": "Energy",
+            "amount":"$48",
+            "subs":[]
+        },
+        {
+            "category": "Natural Resources and Environment",
+            "amount":"$160",
+            "subs":[
+                {
+                    "category":"EPA",
+                    "amount":"$112"
+                },
+                {
+                    "category":"National Parks",
+                    "amount":"$48"
+                }
+            ]
+        },
+        {
+            "category": "Farm Subsidies",
+            "amount":"$240",
+            "subs":[]
+        },
+        {
+            "category": "Education",
+            "amount":"$968",
+            "subs":[
+                {
+                    "category":"K-12 and Vocational Education",
+                    "amount":"$580"
+                },
+                {
+                    "category":"Higher Education",
+                    "amount":"$388"
+                }
+            ]
+        },
+        {
+            "category": "Health Care",
+            "amount":"$15,918",
+            "subs":[
+                {
+                    "category":"Medicare",
+                    "amount":"$8,124"
+                },
+                {
+                    "category":"Medicaid",
+                    "amount":"$5,338"
+                },
+                {
+                    "category":"CHIP",
+                    "amount":"$220"
+                },
+                {
+                    "category":"NIH",
+                    "amount":"$460"
+                },
+                {
+                    "category":"CDC",
+                    "amount":"$118"
+                },
+                {
+                    "category":"FDA",
+                    "amount":"$28"
+                },
+                {
+                    "category":"Other Health Care",
+                    "amount":"$1,630"
+                }
+            ]
+        },
+        {
+            "category": "Income Security",
+            "amount":"$6,954",
+            "subs":[
+                {
+                    "category":"Food Stamps",
+                    "amount":"$964"
+                },
+                {
+                    "category":"Child Nutrition",
+                    "amount":"$324"
+                },
+                {
+                    "category":"Unemployment Compensation",
+                    "amount":"$456"
+                },
+                {
+                    "category":"Supplemental Security Income",
+                    "amount":"$778"
+                },
+                {
+                    "category":"Federal Civilian Retirement",
+                    "amount":"$1,418"
+                },
+                {
+                    "category":"Housing Assistance",
+                    "amount":"$710"
+                },
+                {
+                    "category":"TANF",
+                    "amount":"$224"
+                },
+                {
+                    "category":"Other Income Security",
+                    "amount":"$2,080"
+                }
+            ]
+        },
+        {
+            "category": "Social Security",
+            "amount":"13,796",
+            "subs":[]
+        },
+        {
+            "category": "Interest on the Debt",
+            "amount":"$4,396",
+            "subs":[]
+        },
+        {
+            "category": "Transportation",
+            "amount":"$1,310",
+            "subs":[]
+        },
+        {
+            "category": "Justice",
+            "amount":"$858",
+            "subs":[]
+        },
+        {
+            "category": "General Government",
+            "amount":"$884",
+            "subs":[
+                {
+                    "category":"Congressional Salaries",
+                    "amount":"$2"
+                },
+                {
+                    "category":"Federal Emergency Management Administration",
+                    "amount":"$546"
+                },
+                {
+                    "category":"Corporation for Public Broadcasting",
+                    "amount":"$3"
+                },
+                {
+                    "category":"National Endowment for the Arts",
+                    "amount":"$2"
+                },
+                {
+                    "category":"National Endowment for the Humanities",
+                    "amount":"$2"
+                },
+                {
+                    "category":"Other General Government",
+                    "amount":"$326"
+                }
+            ]
+        }
+    ]
+}

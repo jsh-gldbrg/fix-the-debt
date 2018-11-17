@@ -1,0 +1,29 @@
+.SubItem {
+	display: flex;
+	overflow: hidden;
+	margin-top: .5em;
+}
+
+.col-left-sub,
+.col-right-sub {
+	text-align: left;
+	flex: 1;
+	font-weight: 300;
+	font-size: calc(3px + 2vmin);
+	color: black;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.col-right-sub {
+	text-align: right;
+	color: red;
+}
+
+.col-left-sub {
+	margin-left:20px;
+}
