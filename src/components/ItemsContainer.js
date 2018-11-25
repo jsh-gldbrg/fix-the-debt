@@ -2,30 +2,31 @@ import React, { Component } from 'react';
 import { Item } from './Item';
 import { Headers } from './Headers';
 import './ItemsContainer.css';
-import dataSpending from '../spending.json'; 
 
 export class ItemsContainer extends Component {
-	constructor() {
-		super();
-		this.state = {
-			overall:dataSpending.overall,
-			single:dataSpending.single
-		};
+
+	stripAndReplaceComma(str){
+		let stripped = parseInt(str.replace(/,/g, ''), 10);
+		let multiplied = stripped * this.props.index;
+		return multiplied.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 	}
 
 	render() {
-		const data = this.state.overall;
-		const items = data.map((label, i) =>
+		const items = this.props.data.map((label, i) =>
             <Item
                 key={i}
-                index={i}
+                index={this.props.index}
 				left={label.category}
-				right={label.amount}
+				right={this.props.index === 0 ? ("$" + label.amount):"$" + this.stripAndReplaceComma(label.amount)}
 				subs={label.subs}
+				leftIndent={this.props.leftIndent}
             />);
 		return (
 			 <div className="ItemsContainer">
-			 	<Headers left={"Spending Category"} right={"Total Spending (2017)"}/>
+				<Headers 
+					 left={this.props.leftColumnHeader} 
+					 right={this.props.rightColumnHeader}
+				/>
 				{items}
 			 </div>
 		)

@@ -1,0 +1,29 @@
+.ToggleButton,.ToggleButton-disabled{
+    background: white;
+    border: 1px solid #ed3326; 
+    font-size: calc(1px + 2vmin);
+    color: #ed3326;
+    text-align: center;
+    font-weight: 500;
+    margin: auto .25em;
+    width:auto;
+    padding:0 .5em;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    pointer-events:auto;
+    margin-bottom: 1em;
+}
+
+.ToggleButton:hover{
+    color: white;
+    background: #ed3326;
+}
+
+.ToggleButton-disabled{
+    color: white;
+    background: #ed3326;
+    pointer-events:none;
+}

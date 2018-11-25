@@ -1,14 +1,23 @@
-.Item, .Item-expand {
+.Item, 
+.Item-collapse, 
+.Item-expand {
 	display: flex;
 	overflow: hidden;
 	margin-top: .5em;
+	margin-bottom: .5em;
 	flex-wrap: wrap;
 	height:28px;
+	cursor: pointer;
 }
 
 .Item-expand{
 	height:auto;
 	overflow:visible;
+	cursor: pointer;
+}
+
+.Item {
+	cursor: default;
 }
 
 .col-left,
@@ -34,7 +43,7 @@
 
 .col-left {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .col-left-no-icon{

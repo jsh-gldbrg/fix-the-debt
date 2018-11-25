@@ -1,0 +1,113 @@
+{
+    "name": "fix-the-debt",
+    "version": "1.0",
+    "head":"IS IT WORTH IT – Total Tax Expenditures (2018)",
+    "subhead":"Some government spending also occurs through the tax code. There are numerous tax breaks and loopholes that are similar to spending programs. Below are the top 10 tax expenditures. Chose the number of taxpayers in your household to see the tax breaks.",
+    "leftColumnHeader":"Spending Category",
+    "rightColumnHeader":"Total Expenditures",
+    "otherData":"Total Spending",
+    "overall": [
+        {
+            "category": "Exclusion for Employer-Paid Health Insurance Premiums",
+            "amount":"146,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Reduced Tax Rates on Capital Gains and Dividends",
+            "amount":"129,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Preferential Tax Treatment of 401(k)s",
+            "amount":"126,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Child Tax Credit",
+            "amount":"104,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Preferential Tax Treatment of Defined Benefit Pensions",
+            "amount":"88,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Reduced Tax Rates on Foreign-Earned Multinational Business Income",
+            "amount":"74,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Earned Income Tax Credit",
+            "amount":"70,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Accelerated Write-Offs for Business Equipment",
+            "amount":"68,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "Premium Tax credits for Individual Insurance Exchange Plans",
+            "amount":"49,000,000,000",
+            "subs":[]
+        },
+        {
+            "category": "State and Local Tax Deduction",
+            "amount":"43,000,000,000",
+            "subs":[]
+        }
+    ],
+    "single": [
+        {
+            "category": "Exclusion for Employer-Paid Health Insurance Premiums",
+            "amount":"1,018",
+            "subs":[]
+        },
+        {
+            "category": "Reduced Tax Rates on Capital Gains and Dividends",
+            "amount":"896",
+            "subs":[]
+        },
+        {
+            "category": "Preferential Tax Treatment of 401(k)s",
+            "amount":"874",
+            "subs":[]
+        },
+        {
+            "category": "Child Tax Credit",
+            "amount":"723",
+            "subs":[]
+        },
+        {
+            "category": "Preferential Tax Treatment of Defined Benefit Pensions",
+            "amount":"612",
+            "subs":[]
+        },
+        {
+            "category": "Reduced Tax Rates on Foreign-Earned Multinational Business Income",
+            "amount":"515",
+            "subs":[]
+        },
+        {
+            "category": "Earned Income Tax Credit",
+            "amount":"488",
+            "subs":[]
+        },
+        {
+            "category": "Accelerated Write-Offs for Business Equipment",
+            "amount":"474",
+            "subs":[]
+        },
+        {
+            "category": "Premium Tax credits for Individual Insurance Exchange Plans",
+            "amount":"343",
+            "subs":[]
+        },
+        {
+            "category": "State and Local Tax Deduction",
+            "amount":"300",
+            "subs":[]
+        }
+    ]
+}

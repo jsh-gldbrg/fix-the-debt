@@ -3,19 +3,8 @@ import './Menu.css';
 import { MenuButton } from './MenuButton';
 
 export class Menu extends Component {
-
-    state = { active: 0 };
-
-    setActiveButton(index) {
-        this.active = index;
-    }
-
     handleButtonClick = index => {
-        this.setState({ active: index });
-    }
-
-    componentDidUpdate() {
-        //console.log(this.state.active);
+        this.props.indexHandler(index);
     }
 
     render() {
@@ -25,7 +14,7 @@ export class Menu extends Component {
                 key={i}
                 index={i}
                 label={label}
-                enabled={i === this.state.active ? false : true}
+                enabled={i === this.props.index ? false : true}
                 handleClick={this.handleButtonClick}
             />);
         return (
