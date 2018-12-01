@@ -1,7 +1,8 @@
 {
     "name": "fix-the-debt",
     "version": "1.0",
-    "head":"IS IT WORTH IT – Total Spending (2018)",
+    "head1":"IS IT WORTH IT–",
+    "head2":"Total Spending (2018)",
     "subhead":"The federal budget includes some very big numbers. This tool breaks down the figures in terms that are easier to digest. Chose the number of taxpayers in your household to see the share for each category and decide for yourself if it is worth it.",
     "leftColumnHeader":"Spending Category",
     "rightColumnHeader":"Total Spending",

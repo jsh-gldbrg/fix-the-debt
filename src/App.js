@@ -39,7 +39,7 @@ class App extends Component {
       <div className="App">
         <Toggle label={this.state.data.otherData + " >"} clickHandler={this.toggleData}/>
         <header className="App-header">
-          <h1>{this.state.data.head}</h1>
+          <h1>{this.state.data.head1}<br></br>{this.state.data.head2}</h1>
           <h2>{this.state.data.subhead}</h2>
         </header>
         <Menu 

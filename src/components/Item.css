@@ -1,4 +1,4 @@
-.Item, 
+.Item,
 .Item-collapse, 
 .Item-expand {
 	display: flex;
@@ -18,6 +18,7 @@
 
 .Item {
 	cursor: default;
+	height:auto;
 }
 
 .col-left,
@@ -43,6 +44,7 @@
 
 .col-left {
 	display: flex;
+	flex:2;
 	/* align-items: center; */
 }
 
