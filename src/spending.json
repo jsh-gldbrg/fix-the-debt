@@ -1,12 +1,12 @@
 {
     "name": "fix-the-debt",
     "version": "1.0",
-    "head1":"IS IT WORTH IT–",
-    "head2":"Total Spending (2018)",
-    "subhead":"The federal budget includes some very big numbers. This tool breaks down the figures in terms that are easier to digest. Chose the number of taxpayers in your household to see the share for each category and decide for yourself if it is worth it.",
+    "head1":"IS IT WORTH IT?",
+    "head2":"Spending (2018)",
+    "subhead":"Is government spending worth it? This tool allows you to decide for yourself by breaking down key parts of the federal budget. Choose the number of taxpayers in your household to see its share for each category.",
     "leftColumnHeader":"Spending Category",
     "rightColumnHeader":"Total Spending",
-    "otherData":"Total Expenditures",
+    "otherData":"Click for Tax Expenditures",
     "overall": [
         {
             "category": "Defense and Military Benefits",

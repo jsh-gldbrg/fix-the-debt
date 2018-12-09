@@ -1,12 +1,12 @@
 {
     "name": "fix-the-debt",
     "version": "1.0",
-    "head1":"IS IT WORTH IT–",
-    "head2":"Total Tax Expenditures (2018)",
-    "subhead":"Some government spending also occurs through the tax code. There are numerous tax breaks and loopholes that are similar to spending programs. Below are the top 10 tax expenditures. Chose the number of taxpayers in your household to see the tax breaks.",
-    "leftColumnHeader":"Spending Category",
-    "rightColumnHeader":"Total Expenditures",
-    "otherData":"Total Spending",
+    "head1":"IS IT WORTH IT?",
+    "head2":"Tax Expenditures (2018)",
+    "subhead":"There are numerous tax breaks that are essentially spending through the tax code. Below are the top 10 tax expenditures. Choose the number of taxpayers in your household to see its share of each.",
+    "leftColumnHeader":"Tax Expenditure",
+    "rightColumnHeader":"Total",
+    "otherData":"Click for Spending",
     "overall": [
         {
             "category": "Exclusion for Employer-Paid Health Insurance Premiums",

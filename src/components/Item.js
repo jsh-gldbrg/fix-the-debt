@@ -12,6 +12,12 @@ export class Item extends Component {
 		this.handleExpandClassName = this.handleExpandClassName.bind(this);
 	}
 
+	stripAndReplaceComma(str){
+		let stripped = parseInt(str.replace(/,/g, ''), 10);
+		let multiplied = stripped * this.props.index;
+		return multiplied.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
+
 	handleExpand(){
 		this.setState(prevState => ({
 			expanded: !prevState.expanded
@@ -38,7 +44,7 @@ export class Item extends Component {
 			<SubItem
 				key={i}
 				left={label.category}
-				right={this.props.index > 0 ? "$" + String(parseInt(label.amount) * this.props.index) : "$" + label.amount}
+				right={this.props.index === 0 ? ("$" + label.amount):"$" + this.stripAndReplaceComma(label.amount)}
 			/>);
 			subContainer = <div className="sub-items">{subItems}</div>;
 			icon = <div className={this.state.expanded ? "icon-collapse":"icon-expand"}></div>;

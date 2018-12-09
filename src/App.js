@@ -35,6 +35,15 @@ class App extends Component {
   }
 
   render() {
+    
+    let rightColumnHeader = this.state.data.rightColumnHeader;
+
+    if (this.state.active === 1){
+      rightColumnHeader = this.state.active + " Taxpayer";
+    } else if (this.state.active > 1){
+      rightColumnHeader = this.state.active + " Taxpayers";
+    }
+
     return (
       <div className="App">
         <Toggle label={this.state.data.otherData + " >"} clickHandler={this.toggleData}/>
@@ -49,7 +58,7 @@ class App extends Component {
         <hr></hr>
         <ItemsContainer
           leftColumnHeader={this.state.data.leftColumnHeader}
-          rightColumnHeader={this.state.data.rightColumnHeader}
+          rightColumnHeader={rightColumnHeader}
           index={this.state.active}
           leftIndent={this.state.data !== dataTaxBreak ? true : false}
           data={this.state.active > 0 ? this.state.data.single : this.state.data.overall}
